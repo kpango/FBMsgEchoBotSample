@@ -11,9 +11,9 @@ import (
 	"strings"
 )
 
-const FacebookMsgAPIToken = "EAATXzvJpJsUBAIcJ5XlJPCDREi2mu3ZB5CNTsUrHaFo153on0h398d1TdjwsjBpLmq5mTNiNZAd5jctjJ8CPnQ8UsEOZCEnLUBFytZChEWObYzt77ZCCo89T43BQ7jQGZAfDVYnTcrCrZC5HG304PoRkZB9TPWoRWQZCg9X0REBbyxwZDZD"
+const FacebookMsgAPIToken = "token"
 
-const BotID = "1184692874952667"
+const BotID = "botid"
 
 func webhook(w http.ResponseWriter, req *http.Request) {
 	defer req.Body.Close()
